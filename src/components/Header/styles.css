@@ -1,0 +1,50 @@
+.heading__bar{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 90px;
+    margin-left: 82px;
+    margin-right: 82px;
+
+    .heading__logo{
+        width: 81px;
+        height: 64.1px;
+        margin:  auto 0;
+        img{
+           
+        }
+    }
+    .heading__bar__menu{
+        display: flex;
+        gap: 79px;
+        flex: 1;
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 20px;
+        margin-left: 150px;
+        li{
+            margin: auto 0;
+            a{
+                text-decoration: none;
+                line-height: 24px;
+                font-weight: 700;
+                letter-spacing: 0.2px;
+                text-align: center;
+            }
+        }
+    }
+    .heading__contact{
+        text-decoration: none;
+        display: flex;
+        margin: auto;
+        border-radius: 40px;
+        border: 1px solid #014C98;
+        padding: 13px 21px;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        box-icon{
+            display: flex;
+            margin: auto 0;
+        }
+    }
+}

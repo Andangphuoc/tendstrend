@@ -1,0 +1,307 @@
+.slider{
+  position: relative;
+  .main__slider__img{
+      width: 100%;
+     height: 
+     1830px;
+     gap: 0px;
+    background-color: #001049;
+    margin: 0 auto;
+    
+    }
+}
+.main__slider img{
+  border: 1px solid transparent; /* Tạo đường viền mặc định */
+  z-index: 1;
+
+}
+.main__slider__child {
+  position: absolute;
+  width: 100%;
+  height: 100%; /* Đảm bảo hình con chiếm toàn bộ kích thước của slider */
+  top: 0;
+  left: 0;
+  z-index: 2; /* Sắp xếp hình ảnh con ở phía dưới, trên hình nền */
+}
+.main__slider{
+  position: absolute;
+  top: 0;
+  display: flex;
+  left: 167.5px;
+  gap: 80px;
+
+}.slider__content{
+  width: 522px;
+  gap: 80px;
+}
+.slider__content .slider_tilte{
+  font-size: 34px;
+  margin-top: 110px;
+  font-weight: 600;
+  line-height: 43.68px;
+  font-family: Montserrat;
+  text-align: left;
+  width: 522px;
+  text-transform:uppercase ;
+  color: white;
+  margin-bottom: 80px;
+}
+.slider_tilte{
+  span{
+    color: #ACE5FF;
+  }
+}
+.slider__subtilte{
+  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 190px;
+  height: 40px;
+  border: 
+  #0F90CA solid;
+  background-color: 
+  #0F90CA;
+}
+.slider__subtilte{
+  box-icon{
+    display: flex;
+    margin: auto 0;
+  }
+  p{
+    font-size: 15px;
+    line-height: 15px;
+    margin: auto 0;
+  }
+}
+
+
+.submain__slider {
+  position: absolute;
+  top: 510px;
+  width: 100%;
+  z-index: 3;
+  gap: 28px;
+}
+.subman__slider__box{
+  margin: 0 auto ;
+  margin-top: 28px;
+}
+h3{
+  font-size: 33px;
+  line-height: 39px;
+  font-family: Poppins;
+  color: #ACE5FF;
+  font-weight: 400;
+}
+.subman__slider__title p {
+  color: white;
+  font-size: 15px;
+  line-height: 22.42px;
+  text-align: center;
+  text-indent: 20px;
+
+}
+.subman__slider__ele{
+  gap: 18px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 30px 120px ;
+}
+.subman__slider__ele__tab{
+  display: block;
+  text-align: left;
+  padding: 39px 49px;
+  background-color: #FFFFFF;
+  border-radius: 
+  7.28px;
+}
+
+.subman__slider__ele__tab__boxicon{
+    display: flex;
+    justify-content: left;
+    border-radius: 
+    7.28px;
+    padding: 20px 17px;
+    width: 20px;
+    background-color: 
+      #0F90CA;
+    
+    box-icon{
+      
+
+
+
+    }
+}
+h6{
+  font-size: 14.5px;
+  line-height: 21px;
+  letter-spacing: 0.09px;
+  color: 
+  #252B42;
+  width: 116px;
+  margin: 9.1px 0;
+  
+}
+.line {
+  border-top: 1px solid #D85012;
+  width: 45px;
+}
+.subman__slider__ele__tab p{
+  font-size: 12px;
+  line-height: 18.2px;
+  letter-spacing: 0.18px;
+  color: #737373;
+  width: 
+  201.14px;
+}
+.slider__who_are_we{
+  position: absolute;
+  top: 1110px;
+  margin: 0 250px;
+}
+.slider__who_are_we__center{
+  width: 1013px;
+}
+.quanlity{
+  margin: 50px 0;
+}
+.quanlity__important{
+  margin: 16px  0;
+}
+.quanlity__mid{
+  height:242.1px ;
+  background-color:
+  #0F90CA ;
+  color: white;
+}
+.quanlity__line__title ul li,.quanlity__mid ul li{
+  display: flex;
+}
+.quanlity__line__title,.quanlity__mid{
+  width: 213px;
+}
+.quanlity__line__title ul,.quanlity__mid ul{
+ padding: 0;    margin-top: 27px;
+}
+.quanlity__line__title ul li p,.quanlity__mid ul li p{
+  padding: 0;
+  margin: 0;
+ }
+h5{
+  text-align: center;
+  margin: 0;
+}
+.quanlity__mid ul{
+  gap: 10px;
+}
+/* our parners */
+.out__partners__subnav{
+  width: 284px;
+  text-align: left;
+  position: relative;
+  margin-top: 20px;
+}
+.out__partners__subnav__profiles{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  position: absolute;
+  bottom: -90px;
+}
+.out__partners__subnav__profiles img{
+  width: 50px;
+}
+.profiles p,.profiles span{
+  margin: 0;
+}
+.profiles strong{
+  font-size: 14px;
+}
+.profiles .small_text{
+  color: #A1A5B7;
+  font-size: 13px;
+
+}
+.profiles span{
+  color: 
+  #009EF7;
+  font-size: 12px;
+
+}
+h4{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 29.25px;
+  font-weight: 400;
+  width: 272px;
+}
+.out__partners__subnav p{
+  color: 
+  #A1A5B7;
+  font-size: 16px;
+  line-height: 16.5px;
+  font-weight: 400;
+  margin: 0;
+  width: 284px;
+}
+h2{
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  margin: 0;
+  color: 
+  #001049;
+}
+.out__partners__nav .sub__title_heading{
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: 
+  #717074;
+}
+.out__partners__nav{
+  width: 955px;
+  margin: 0 auto;
+}
+.out__partners__main__subnav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.out__partners__nav__second {
+  margin-top: 200px;
+}
+.out__partners__subnav__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 796px;
+  margin: 0 auto;
+}
+
+.out__partners__subnav__img img {
+  width: 154px; /* Thiết lập kích thước của ảnh */
+  margin: 0 5px; /* Khoảng cách giữa các ảnh */
+}
+
+/* Hiển thị 4 ảnh lên đầu */
+.out__partners__subnav__img img:nth-child(-n+4) {
+  order: -1; /* Sắp xếp thứ tự để 4 ảnh này được hiển thị lên đầu */
+}
+.out__partners {
+  padding: 70px;
+}
+/* Thiết lập kích thước của ảnh cho 2 dòng */
+@media (max-width: 312px) { /* Giả sử mỗi hàng chỉ có thể chứa 2 ảnh */
+  .out__partners__subnav__img img {
+      width: calc(50% - 10px); /* Thiết lập kích thước cho 2 ảnh trên mỗi hàng */
+  }
+}

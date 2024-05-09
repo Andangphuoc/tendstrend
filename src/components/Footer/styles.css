@@ -1,0 +1,58 @@
+.footer__content {
+    width: 100%; /* Chiều rộng của container */
+    height: 400px; /* Chiều cao của container */
+    position: relative; /* Đặt vị trí của container để sử dụng cho clip */
+    overflow: hidden; /* Ẩn bất kỳ nội dung nào vượt ra khỏi container */
+}
+.footer__content img{
+    width: 100%;
+    background-color: 
+    #001049;
+}
+.footer__content__main {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    gap: 70px;
+    text-align: left;
+    h5{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+    text-align: left;
+        
+    }
+    a{
+        width: 195px;
+        height: 44px;
+    }
+    
+
+}
+.footer__content__main__ele ul li a{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+.footer__content__main__ele ul{
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    flex-flow: column;
+}
+.footer__content__submain{
+    width: 100%;
+    position: absolute;
+    bottom: 0
+    ;
+}
